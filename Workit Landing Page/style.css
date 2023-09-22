@@ -1,0 +1,349 @@
+@font-face {
+    font-family: WorkitFr;
+    src: url(assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: WorkitMan ;
+    src: url(assets/fonts/manrope/Manrope-VariableFont_wght.ttf);
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+
+h1, h2, .numb {
+    font-family: WorkitFr;
+}
+
+h1 {
+    text-align: center;
+    margin:2.5%;
+    line-height: 1;
+    background-color: #24053e;
+    color: #ffffff;
+    position: relative;
+    z-index: 5;
+    /* font-size: 80px; */
+    font-size: 8vmax;
+}
+
+h2 {
+    font-size: 32px;
+    position: relative;
+    z-index: 5;
+}
+
+p {
+    font-size: 18px;
+}
+
+.B, p {
+    font-family: WorkitMan;
+    position: relative;
+    z-index: 5;
+}
+
+#Learn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+
+}
+
+button {
+    background-color: #44FFA1;
+    border : none;
+    color: #24053e;
+    width: 161px;
+    height: 61px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 5;
+}
+
+#Appbut {
+    width: 190px;
+    position: absolute;
+    bottom: 5%;
+}
+
+button:hover {
+    background-color: #24053e;
+    color: #44FFA1;
+    border-color: #44FFA1;
+    border: solid;
+}
+
+#Phone {
+    
+
+}
+
+#PhoneImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: relative;
+    z-index: 5;
+    height: 50%;
+}
+
+.Logoandlink {
+    background-color: #24053e;
+    display: flex;
+    position: relative;
+    z-index: 5;
+}
+/* -------------------------------------*/
+
+
+
+
+#Click {
+    font-size: 18px;
+    color: #ffffff;
+    border-style: none none solid none;
+    border-color: #44FFA1;
+    margin: 10%;
+    padding-bottom: 5%;
+    cursor: pointer;
+    
+}
+
+#Click:hover {
+    color: #44FFA1;
+}
+
+#Clickdiv {
+    width: 13.3%;
+    align-items:center;
+    padding-right: 10%;
+    margin-left: auto;
+    position: relative;
+    z-index: 5;
+}
+
+#lightlogo {
+    padding-left: 10%;
+    padding-top: 1.5%;
+    cursor: pointer;
+}
+
+
+
+
+
+.col {
+    float: left;
+    width: 354px;
+    padding: 26px;
+    color: #24053e;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    z-index: 5;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.numb {
+    border-radius: 28px;
+    width: 28px;
+    height: 28px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #24053e;
+    color: #24053e;
+    margin-left: 45%;
+    margin-right: 50%;
+    position: relative;
+    z-index: 5;
+
+
+}
+
+.socmed {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 5;
+}
+
+.smb {
+    padding: 14px;
+    cursor: pointer;
+}
+
+#logo {
+    margin-bottom: 25px;
+}
+
+.App {
+    color: #ffffff;
+    width: 730;
+    height: 413;
+
+}
+
+#AppHead {
+    font-size: 5vmax;
+    margin-bottom: -2.5%;
+}
+
+#AppText {
+    margin-bottom: 32px;
+    line-height: 2;
+    font-size: 3vmin;
+}
+
+#Application {
+    display: grid;
+    background-color: #24053e;
+    width: 45%;
+    height: 415px;
+    padding-left: 64px;
+    padding-right: 64px;
+    margin-left: 15%;
+    margin-top: -5%;
+    margin-bottom: 5%;
+}
+
+#Application {
+    position: relative;
+    left: 22%;
+    z-index: 5;
+}
+
+#Founder {
+    position: relative;
+    top: 240px;
+    left: 110px;
+    z-index: 4;
+    width: 50%;
+    height: 50%;
+}
+
+.Shape1 {
+    height: 700px;
+    background-color: #fcf8ff;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    position: relative;
+    z-index: 2;
+    top: 2900px;
+    margin-top: -2209px;
+    overflow-y: hidden ;
+}
+
+.Shape2 {
+    height: 700px;
+    background-color: #24053e;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    position: relative;
+    z-index: 3;
+    bottom: -700px;
+    overflow-y: hidden ;
+}
+
+.Shape3 {
+    height: 800px;
+    background-color:#fcf8ff ;
+    position: relative;
+    z-index: 1;
+    top: 1700px;
+}
+
+.C1, .C2 {
+    position: absolute;
+    z-index: 6;
+}
+
+.C1 {
+    bottom: 250px;
+    left: -130px;
+}
+
+.C2 {
+    bottom: 250px;
+    right: -50px;
+}
+
+.C3 {
+    position: relative;
+    bottom: 180px;
+    right: -650px;
+    z-index: 6;
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
+/*Mobile rules*/
+
+@media only screen and (max-width: 768px) {
+    
+    #Phone {
+        position: absolute;
+    }
+
+    .row {
+        position: absolute;
+        top: 700px;
+        display: inline;
+        justify-content: center;
+    }
+
+    #FullCard {
+        position: absolute;
+        bottom: -1900px;
+        left: -150px;
+    }
+
+    #Founder {
+        position: sticky;
+    }
+
+    .socmed {
+        position: relative;
+        top: 2000px
+
+    }
+
+    .col {
+        float: left;
+        width: 354px;
+        padding: 26px;
+        color: #24053e;
+        align-items: left;
+        text-align: left;
+        position: relative;
+        z-index: 5;
+        display: flex;
+    }
+    
+    .coltxt {
+        margin-left: 20%;
+        margin-right: -50%;
+    }
+
+    .row {
+        display: inline;
+        align-items: center;
+        justify-content: center;
+        
+    }
+}
